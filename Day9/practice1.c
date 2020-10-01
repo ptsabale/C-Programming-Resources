@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
 int x;
+printf("Enter number");
 scanf("%d",&x);
 
 if (x<100){
@@ -10,7 +11,7 @@ else if(x==1){
     
 }
 else{
-    printf("x is greater then 100 re-enter x : ");
+    printf("x is greater then 100re-enter x : ");
     scanf("%d",&x);
     if(x<100){
         printf("value of x is correct\n");
